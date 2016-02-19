@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C5CAE9;
+}
+
+/*overflow hiden*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  background: #f6f6f6;
+  min-height: 95vh;
+  min-width: 90vw;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0.5%;
+}
+
+.title-box {
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  width: auto;
+  background: #3F51B5;
+  margin: -10px;
+  border-bottom: 1px solid #324296;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 1px 3px #222;
+}
