@@ -4,25 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #C5CAE9;
-}
-
-/*overflow hiden*/
-
-.wrapper {
+.content {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-}
-
-.content {
-  background: #f6f6f6;
-  min-height: 95vh;
-  min-width: 90vw;
-  margin: auto;
-  padding: 10px;
-  border-radius: 0.5%;
 }
 
 .title-box {
@@ -30,9 +14,8 @@ body {
   line-height: 80px;
   overflow: hidden;
   width: auto;
-  background: #3F51B5;
-  margin: -10px;
-  border-bottom: 1px solid #324296;
+  background: #8a6262;
+  border-bottom: 1px solid #d6b6b6;
 }
 
 .title {
@@ -41,4 +24,12 @@ body {
   margin-bottom: 20px;
   text-align: center;
   text-shadow: 0 1px 3px #222;
+}
+
+.picture {
+  background: red;
+  height: calc(100vh - 80px);
+  width: 25vw;
+  background: url("../images/.jpg") center no-repeat;
+  border-right: 1px solid #d6b6b6;
 }
