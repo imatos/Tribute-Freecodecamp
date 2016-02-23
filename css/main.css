@@ -4,9 +4,25 @@
   box-sizing: border-box;
 }
 
-.content {
+.tribute-background {
+  background: url("http://iphotoeditora.com.br/blog/wp-content/uploads/2013/02/074.jpg") center no-repeat;
+  opacity: 0.15;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.wrapper {
   display: flex;
   flex-direction: column;
+}
+
+p {
+  margin-bottom: 12px;
 }
 
 .title-box {
@@ -14,22 +30,53 @@
   line-height: 80px;
   overflow: hidden;
   width: auto;
-  background: #8a6262;
-  border-bottom: 1px solid #d6b6b6;
+  background: #001f3f;
 }
 
-.title {
+.tribute-title {
   color: #fff;
-  font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
   text-shadow: 0 1px 3px #222;
 }
 
-.picture {
-  background: red;
+.page-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bcb8bd;
+}
+
+.content {
+  padding: 7px;
   height: calc(100vh - 80px);
-  width: 25vw;
-  background: url("../images/.jpg") center no-repeat;
-  border-right: 1px solid #d6b6b6;
+  width: 80vw;
+  margin: auto;
+}
+
+.gallery-items {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.image {
+  border: 1px solid #8aab92;
+  height: 200px;
+  line-height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+}
+
+.info-list li {
+  list-style: none;
+}
+
+.info-list a {
+  text-decoration: none;
+  font-size: 1.3em;
 }
